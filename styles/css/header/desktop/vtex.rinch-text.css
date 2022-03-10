@@ -1,0 +1,8 @@
+.searchBarContainer{
+    display: flex;
+    align-items: center;
+}
+.minicartWrapperContainer--wrap-header-cart{
+    display: flex;
+    justify-content: end;
+}

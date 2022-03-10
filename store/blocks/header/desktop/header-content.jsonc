@@ -1,0 +1,91 @@
+{
+    "flex-layout.row#header-content": {
+       "props":{
+         "blockClass":["header","container"]
+       },
+       "children": [
+           "flex-layout.col#logo",
+           "search-bar",
+           "login",
+           "flex-layout.row#services",
+           "minicart.v2"
+       ]
+     },
+     "flex-layout.col#logo": {
+       "children":["rich-text#logo-header"],
+       "props":{
+         "blockClass":"logo-header",
+         "width":"20%"
+       }
+     },
+     "search-bar": {
+       "props":{
+         "blockClass":"search-header",
+         "width":"46%",
+         "verticalAlign":"middle"
+       }
+     },
+     "flex-layout.row#services": {
+       "children":[
+           "rich-text#services-header-left",
+           "rich-text#services-header-right"
+       ],
+       "props":{
+         "blockClass":"services-header",
+         "verticalAlign":"middle",
+         "width":"6%"
+       }
+     },
+     "login": {
+       "props": {
+           "emailAndPasswordTitle": "LOG-IN",
+           "accessCodeTitle": "Acess Code LOG-IN",
+           "emailPlaceholder": "e-mail",
+           "passwordPlaceholder": "password",
+           "showPasswordVerificationIntoTooltip": true,
+           "width":"10%",
+           "verticalAlign":"middle"      
+       }
+     },
+     "minicart.v2":{
+       "props": {
+          "horizontalAlign":"right",
+          "blockClass":"wrap-header-cart"
+       }
+      },
+    //  "flex-layout.col#cart": {
+    //    "children":["rich-text#cart-header"],
+    //    "props":{
+    //      "blockClass":"cart-header"
+    //    }
+    //  },
+   
+   
+     // ======== CONTENT AREA ========== // 
+   
+   
+     "rich-text#logo-header": {
+         "props": {
+             "text":"![logo](https://via.placeholder.com/173x55)",
+             "blockClass":"wraper-logo-header"
+         }
+     },
+     "rich-text#services-header-left": {
+         "props": {
+             "text":"![Atendimento](https://via.placeholder.com/27x27)",
+             "blockClass":"wrapper-services-header-left"
+         }
+     },
+     "rich-text#services-header-right": {
+         "props": {
+             "text":"Serviços e \n**Atendimento**",
+             "blockClass":"wrapper-services-header-right"
+         }
+     }
+    //  "rich-text#cart-header": {
+    //      "props": {
+    //          "text":"email",
+    //          "blockClass":"wrapper-services-header"
+    //      }
+    //  }
+   }

@@ -1,0 +1,8 @@
+.flexRow--container{
+    margin: 0 auto;
+    width: 1170px;
+}
+.minicartWrapperContainer{
+    display: flex;
+    justify-content: end;
+  }
